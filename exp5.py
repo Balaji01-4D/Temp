@@ -34,5 +34,3 @@ def corelationCoefficient(): # C
     plt.scatter(x,y3,label=f'zero correlation coff = {np.round(np.corrcoef(x,y3)[0,1],1)}',color='blue')
     plt.legend()
     plt.show()
-
-corelationCoefficient()
